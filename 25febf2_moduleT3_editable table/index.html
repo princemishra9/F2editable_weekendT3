@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>editable test</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+          padding: 2px;
+            background-color: black;
+            color: white;
+        }
+        button{
+           margin: 10px;
+           color: white;
+           background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <header class="head">
+        <h1 id="heading">DashBoard</h1>
+    </header>
+    <button id="btn">Add A New Row</button><br><br>
+
+<table id="TBL" border="2px" cellspacing="0">
+<thead>
+          <tr class="thead">
+            <td>ID</td>
+            <td>Student Name</td>
+            <td>Student Roll</td>
+            <td>Subject</td>
+            <td>Marks</td>
+            <td>Marked By</td>
+            <td>Save</td>
+          </tr>
+        </thead>
+        <tbody id="contain"></tbody>
+</table>
+<script src="index.js"></script>
+</body>
+</html>
